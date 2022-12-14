@@ -95,18 +95,38 @@ h1,h2,h3,h4,h5,h6{
   overflow: hidden;
 
 }
-.menu-item:hover .menu-link,
-.menu-item.active .menu-link{
-  color: #fff;
+
+[data-active-color="#FFFFFF"].active .menu-link,
+[data-active-color="#FFFFFF"]:hover .menu-link{
+  color: #FFFFFF;
 }
+[data-active-color="#4000FF"].active .menu-link,
+[data-active-color="#4000FF"]:hover .menu-link{
+  color: #4000FF;
+}
+[data-active-color="#FF0040"].active .menu-link,
+[data-active-color="#FF0040"]:hover .menu-link{
+  color: #FF0040;
+}
+[data-active-color="#F7FE2E"].active .menu-link,
+[data-active-color="#F7FE2E"]:hover .menu-link{
+  color: #F7FE2E;
+}
+[data-active-color="#00FF00"].active .menu-link,
+[data-active-color="#00FF00"]:hover .menu-link{
+  color: #00FF00;
+}
+
+
+
 .menu-link {
-  color: rgb(151, 141, 141);
+  color: #978d8d;
   text-transform: uppercase;
 
   padding: 20px 80px 20px 30px;
   display: block;
 
-  transition: color 0.8s ease 0s;
+  transition: color 0.8s linear;
 }
 .menu__active {
   position: absolute;

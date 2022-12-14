@@ -6,23 +6,23 @@
 const menuListArray = [
   {
     name: 'Home',
-    color: '#ffffff',
+    color: '#FFFFFF',
   },
   {
     name: 'About',
-    color: '#ff6961',
+    color: '#4000FF',
   },
   {
     name: 'Portfolio',
-    color: '#779ecb',
+    color: '#FF0040',
   },
   {
     name: 'Blog',
-    color: '#00FF40',
+    color: '#F7FE2E',
   },
   {
     name: 'Contacts',
-    color: '#77dd77',
+    color: '#00FF00',
   },
 ]
 
